@@ -1,0 +1,2 @@
+/opt/bin/mkfifo
+/opt/bin/busybox 30

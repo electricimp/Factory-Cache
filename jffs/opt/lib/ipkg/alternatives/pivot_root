@@ -1,0 +1,2 @@
+/opt/sbin/pivot_root
+/opt/bin/busybox 30

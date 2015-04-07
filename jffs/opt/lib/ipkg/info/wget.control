@@ -1,0 +1,10 @@
+Package: wget
+Architecture: mipsel
+Priority: optional
+Section: net
+Version: 1.12-2
+Maintainer: NSLU2 Linux <nslu2-linux@yahoogroups.com>
+Source: http://ftp.gnu.org/pub/gnu/wget/wget-1.12.tar.gz
+Description: A network utility to retrieve files from the Web
+Depends: 
+Conflicts: wget-ssl

@@ -1,0 +1,2 @@
+/opt/sbin/rmmod
+/opt/bin/busybox 30

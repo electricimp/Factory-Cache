@@ -1,0 +1,38 @@
+Package: busybox
+Version: 1.10.3-1
+Depends: busybox-base (= 1.10.3-1), busybox-links (= 1.10.3-1)
+Status: install user installed
+Architecture: mipsel
+
+Package: busybox-base
+Version: 1.10.3-1
+Status: install ok installed
+Architecture: mipsel
+
+Package: busybox-links
+Version: 1.10.3-1
+Depends: busybox-base (= 1.10.3-1)
+Status: install ok installed
+Architecture: mipsel
+
+Package: ipkg-opt
+Version: 0.99.163-10
+Depends: uclibc-opt
+Status: install user installed
+Architecture: mipsel
+
+Package: uclibc-opt
+Version: 0.9.28-13
+Suggests: ipkg-opt
+Status: install user installed
+Architecture: mipsel
+
+Package: wget
+Version: 1.12-2
+Conflicts: wget-ssl
+Status: install user installed
+Architecture: mipsel
+Conffiles:
+/opt/etc/wgetrc 79550b1cc76e4612674fa154ad31fc4d
+Installed-Time: 1376437798
+

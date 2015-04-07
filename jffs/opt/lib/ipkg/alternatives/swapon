@@ -1,0 +1,2 @@
+/opt/sbin/swapon
+/opt/bin/busybox 30

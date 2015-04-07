@@ -1,0 +1,10 @@
+#!/bin/sh
+if mount | grep -q /opt; then
+   echo "Already Mounted"
+else
+   mount -o bind /jffs/opt /opt
+fi
+
+/opt/bin/nohup /jffs/scripts/httpd_keepalive.sh &
+/opt/bin/nohup /jffs/scripts/ping_keepalive.sh &
+/opt/bin/nohup /jffs/scripts/get_impfirmware.sh &

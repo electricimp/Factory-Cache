@@ -1,0 +1,2 @@
+/opt/sbin/modprobe
+/opt/bin/busybox 30
